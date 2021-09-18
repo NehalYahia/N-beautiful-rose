@@ -1,0 +1,524 @@
+/*    general items    */
+ body
+ {
+ 	 margin: 0px;
+     background-color: whitesmoke;
+     font-family: cursive;
+
+ }
+
+ figure img
+ {
+ 	width: 100%;
+ 	height: 80%;
+ }
+
+ h2
+ {
+ 	text-align: center;
+ 	font-size:40px;
+ 	font-family: 'Pacifico', cursive;
+     padding-top: 30px;
+
+ }
+
+button
+{
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: bolder;
+    outline: none;
+}
+
+li
+{
+     cursor: pointer;
+}
+
+
+/* content of header (navbar + header img) */
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3),whitesmoke);
+    box-shadow:0px 3px 5px whitesmoke;
+    height: 100%;
+
+}
+
+.nav_bar  /* navbar ( logo + main list) */
+{
+    display: flex;
+    background-color: whitesmoke;
+    padding-bottom: 5px;
+     box-shadow:0px 10px 15px rgba(0,0,0,.3);
+}
+
+.logo
+{
+    width:7%;
+    display: inline-block;
+    margin-left:5%;
+    text-align: center;
+    border:1px solid ;
+    border-radius: 50%;
+    border-color: rgba(253, 186, 150, 1);
+
+}
+
+.logo p
+{
+    font-size:2vw;
+    margin-bottom: 0;
+    font-weight: bolder;
+    
+   
+}
+
+.logo span
+{   
+    font-size:1vw;
+    background-color: rgba(253, 186, 150, 1);
+    font-family: 'Pacifico', 'cursive';
+   
+    
+}
+
+ ul
+ {
+     text-align: right;
+     margin-left: 40%;
+     display: inline-block;
+   
+ }
+
+ ul li
+{
+    display: inline-block;
+    padding:10px 20px;
+    font-size: 20px;
+} 
+
+
+ul li::after  {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+ul li:hover::after {
+    width: 100%;
+}
+
+.active
+{
+    color: rgba(253, 186, 150, 1);
+    font-weight: bolder;
+}
+
+.icon
+{
+    color: black;
+    font-size: 5vw ;
+    display: none;
+}
+
+ .header_img  /* header img (main text +  circular image) */
+ {
+     display: flex;
+ }
+
+ .img_div
+{
+    width: 40%;
+    
+    
+}
+
+ .img_div img /* circular image on header image */
+
+ {
+     border-radius: 50%;
+     width: 100%;
+     clip-path: circle(50% at 72% 69%);
+ }
+
+ .header_text
+ {  
+     width: 60%;
+     margin: auto 10%;
+     font-size:2vw;
+    
+
+ }
+
+ .header_text p
+{ 
+    font-family: 'Pacifico', cursive;
+}
+
+.header_text button
+{
+    padding:10px 20px;
+    font-size:30px;
+    color:  rgba(253, 186, 150, 1);
+    border:none; 
+    background-color: rgba(186, 96, 54, 0);
+    border:3px solid rgba(253, 186, 150, 1);
+/*    box-shadow:0px 10px 15px  rgba(253, 186, 150, 1);*/
+    
+    
+}
+
+.header_text button:hover
+{
+	color: black;
+    border:3px solid black;
+}
+
+ .Best_Selling_Flowers  /* Best Selling Flowers section */
+ {
+ 	display: flex;
+ 
+ }
+
+.Best_Selling_Flowers figure
+{
+	width: 24%;
+	height: 250px;
+	padding: 5px;
+	display: inline-block;
+	box-shadow:0px 10px 15px rgba(0,0,0,.3);
+	
+}
+
+.Best_Selling_Flowers figure:hover
+{
+	box-shadow:0px 3px 5px rgba(0,0,0,.3);
+}
+
+.Best_Selling_Flowers figure figcaption
+{
+     font-size:25px;
+    text-align: center; 
+}
+
+.Best_Selling_Flowers figure span
+{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    bottom: 38%;
+    left:55%;
+    background-color: #fdba96;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    width: 40%;
+    
+}
+
+.see_more
+{
+    width:12%;
+    margin:20px 0 5px 85%;
+    padding:10px 20px 10px 30px;
+    font-size:20px;
+    border:none; 
+    background-color: #fdba96;
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+    text-shadow: 10px 5px 15px black;
+  
+}
+
+.see_more:hover
+{
+    background-color: black;
+    color:  #fdba96;
+    text-shadow: 10px 5px 15px  #fdba96;
+    
+}
+
+
+ .free_delevery p /* Free Delevery section */
+ {
+     font-size: 20px;
+     width: 80%;
+     text-align: center;
+     margin: auto;
+ }
+
+
+ .offer_section  /* Offer section (wedding flowers) */
+ {
+     background-color: rgba(253, 186, 150, 1);
+     font-size: 40px;
+     margin-top: 80px;
+     display: flex;
+     color:white;
+}
+
+.offer_section div
+{
+    width: 70%;
+    text-align: center;
+    margin:auto;
+    
+}
+
+.offer_section button
+{
+    padding:10px 20px;
+    font-size:30px;
+    color:  rgba(253, 186, 150, 1);
+    border:none; 
+    background-color: white;
+    box-shadow:0px 10px 18px 15px white;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example {
+  0% { transform: rotate(15deg);}
+  25% { transform:  rotate(-15deg)}
+    50% { transform: rotate(15deg);}
+  100% { transform:   rotate(-15deg)}
+}
+
+.offer_section button:hover
+{
+    box-shadow:0px 3px 5px rgba(0,0,0,.3);
+    animation-name:stop;
+}
+
+.offer_section img
+{
+    width: 28%;
+    height: 330px;
+    position: relative;
+    left: 5%;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
+
+}
+
+
+
+ .Categories   /* Categories section */
+ {
+     display: flex;
+     height: 530px;
+     width: 90%;
+     margin: auto;
+ }
+
+ .Categories figure:hover
+{
+	box-shadow:0px 3px 5px rgba(0,0,0,.3);
+}
+
+.image_in_Categories1
+{
+    width: 35%;
+}
+
+.image_in_Categories1 figure
+{
+	width:60%;
+	height: 200px;
+	padding: 5px;
+	display: inline-block;
+	box-shadow:0px 10px 15px rgba(0,0,0,.3);
+    background-color: white;
+	
+}
+
+.image_in_Categories1 figure figcaption
+{
+    font-size:25px;
+    text-align: center;
+}
+
+
+.p_btn_in_Categories
+{
+    width: 30%;
+    text-align: center;
+     margin: auto;
+    padding: 20px 0px;
+    
+}
+
+.p_btn_in_Categories p
+{
+    font-size:30px;
+    
+}
+
+
+.p_btn_in_Categories button
+{
+    padding:10px 20px;
+    font-size:30px;
+    border:none;
+    background-color:white;
+    box-shadow:0px 10px 15px rgba(0,0,0,.3);
+    
+
+}
+
+.p_btn_in_Categories button:hover
+{
+	box-shadow:0px 3px 5px rgba(0,0,0,.3);
+}
+
+.image_in_Categories
+{
+    width: 35%;
+}
+
+.image_in_Categories figure
+{
+	width:50%;
+	height: 200px;
+	padding: 5px;
+	display: inline-block;
+	box-shadow:0px 10px 15px rgba(0,0,0,.3);
+    background-color: white;
+	
+}
+
+.image_in_Categories figure figcaption
+{
+    font-size:25px;
+    text-align: center;
+}
+
+.kind2
+{
+   position: relative;
+   right:10%;
+}
+
+.kind3
+{
+   position: relative;
+   z-index:4;
+}
+
+.kind4
+{
+   position: relative;
+    bottom:20%;
+    left: 35%;
+    z-index: 2;
+}
+
+.kind5
+{
+    position: relative;
+    bottom:40%;
+    left: 10%;
+    z-index: 1;
+}
+
+
+.customers/* What People Say section*/
+{
+    display: flex;
+}
+
+.opinion
+{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    display: none
+}
+
+.opinion img
+{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.customers button:hover
+{
+	box-shadow:0px 3px 5px rgba(253, 186, 150, 1);
+}
+
+.left
+{
+    position: relative;
+    left: 10%;
+    background-color:  rgba(253, 186, 150, 1);
+    border:none;
+    font-size: 25px;
+    color:  rgba(253, 186, 150, 1);
+    background-color: white;
+    box-shadow:0px 10px 15px  rgba(253, 186, 150, 1);
+    height: 10%;
+}
+
+.right
+{
+    position: relative;
+    right:10%;
+    background-color:  rgba(253, 186, 150, 1);
+    border:none;
+    font-size: 25px;
+    color:  rgba(253, 186, 150, 1);
+    background-color: white;
+    box-shadow:0px 10px 15px  rgba(253, 186, 150, 1);
+     height: 10%;
+   
+}
+
+ /*  start footer */
+footer{
+    
+    width:100%;
+     background-image: linear-gradient( whitesmoke ,rgba(0,0,0,.3),rgba(0,0,0,.3));
+    clear: both;
+    text-align: center;
+    overflow: auto;
+    padding:30px 0 2% 0;
+
+    }
+
+.p-footer{
+    
+    font-size:20px;
+    margin:2% 0 0 0;
+
+    }
+
+.s-footer{
+    
+    margin-bottom:2%;
+        }
+
+.s-footer a
+{
+    color: white;
+}
+
+.f
+{
+    padding: 20px;
+}
+
+.f a{
+    
+    margin:3%;
+    color:black;
+}
+
+.f a:hover{
+    
+    color:white;
+
+            }
+

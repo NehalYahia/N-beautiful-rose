@@ -1,0 +1,345 @@
+@media only screen and (max-width: 480px) 
+{   
+    /*    general items    */
+    h2
+    {
+        font-size: 20px;
+    }
+    
+    .nav_bar  /* navbar ( logo + main list) */
+    {
+       flex-direction: column;
+
+
+    }
+    
+    .logo
+    {
+        width: 10%;
+        margin-top: 10px;
+        margin-bottom: 0;
+
+    }
+
+    .topnav
+    {
+        margin: 0;
+    }
+
+    .topnav li:not(:last-child)
+    {
+        display: none;
+    }
+
+    .topnav li .icon 
+    {
+      display: block;
+    }
+
+    .topnav.responsive 
+    {
+        position: relative;
+        padding: 5px;
+    }
+
+    .topnav.responsive .icon 
+    {
+        position: absolute;
+        right: 5%;
+        top:0;
+    }
+    .topnav.responsive li
+    {
+        display:block;      
+        text-align:center;
+    }
+
+    ul li:hover::after
+    {
+        width: 0%;
+    }
+
+    ul li:hover
+    {
+        font-size: 30px;
+    }
+
+     .header_text 
+     {  
+         font-size:3.5vw;
+
+     }
+    
+    .header_text button
+    {
+        padding:10px 20px;
+        font-size:3vw;
+    }
+
+    
+    .Best_Selling_Flowers  /* Best Selling Flowers section */
+    {
+        flex-wrap: wrap;
+        
+    }
+    .Best_Selling_Flowers figure
+    {
+        width:90%;
+    }
+  
+    .see_more
+    {
+        width:30%;
+         margin:20px 0 5px 70%;
+        font-size:3vw
+    }
+    
+     .offer_section /* Offer section (wedding flowers) */
+    {
+        font-size:20px;
+        height: 130px;
+    }
+    
+    .offer_section img  
+    {
+        display: none;
+    }
+    
+    .offer_section button
+    {
+        font-size:3vw;  
+    }
+    
+     .Categories   /* Categories section */
+     {
+         box-sizing: border-box;
+     }
+
+    .image_in_Categories1
+    {
+        width:55%;
+        margin: 0;
+        
+    }
+    
+     .image_in_Categories1 figure
+    {
+        width: 80%;
+    }
+    
+    .image_in_Categories1 figure figcaption
+    {
+        font-size:4vw;
+    }
+
+    .p_btn_in_Categories
+    {
+        width: 40%;
+        
+    }
+    
+    .p_btn_in_Categories p
+    {
+        font-size:20px;
+
+    }
+    .p_btn_in_Categories button
+    {
+        font-size:3vw;
+
+    }
+    
+    .image_in_Categories
+    {
+        display: none;
+    }
+
+    /* footer */
+
+   .p-footer{
+        
+        font-size:12px;
+        margin:2% 0 0 0;
+    
+            }
+    .f a{
+        
+        display: block;
+        font-size:15px;
+        }
+       
+}
+
+
+
+
+/* tablet screens  ====================================*/
+
+
+
+@media (min-width: 481px) and (max-width: 768px) 
+{   
+    /*    general items    */
+    h2
+    {
+        font-size: 20px;
+    }
+    
+    .nav_bar  /* navbar ( logo + main list) */
+    {
+       flex-direction: column;
+
+
+    }
+    
+    
+    .logo
+    {
+        width: 10%;
+        margin-top: 10px;
+        margin-bottom: 0;
+
+    }
+
+    .topnav
+    {
+        margin: 0;
+    }
+
+    .topnav li:not(:last-child)
+    {
+        display: none;
+    }
+
+    .topnav li .icon 
+    {
+      display: block;
+    }
+
+    .topnav.responsive 
+    {
+        position: relative;
+        padding: 5px;
+    }
+
+    .topnav.responsive .icon 
+    {
+        position: absolute;
+        right: 5%;
+        top:0;
+    }
+    .topnav.responsive li
+    {
+        display:block;      
+        text-align:center;
+    }
+
+    ul li:hover::after
+    {
+        width: 0%;
+    }
+
+    ul li:hover
+    {
+        font-size: 30px;
+    }
+
+     .header_text 
+     {  
+         font-size:3.5vw;
+
+     }
+    
+    .header_text button
+    {
+        padding:10px 20px;
+        font-size:3vw;
+    }
+
+    
+    .Best_Selling_Flowers  /* Best Selling Flowers section */
+    { 
+        flex-wrap: wrap;
+        flex-grow: 0;
+        
+    }
+   .Best_Selling_Flowers figure
+    {
+        flex-basis:35%;
+        box-sizing: border-box;
+    }
+    
+    .Best_Selling_Flowers figure  span
+    {
+        font-size: 2vw;
+    }
+  
+    .see_more
+    {
+        width:30%;
+         margin:20px 0 5px 70%;
+        font-size:3vw
+    }
+    
+     .offer_section /* Offer section (wedding flowers) */
+    {
+        font-size:20px;
+        height: 130px;
+    }
+    
+    .offer_section img  
+    {
+        display: none;
+    }
+    
+    .offer_section button
+    {
+        font-size:3vw;  
+    }
+    
+     .Categories   /* Categories section */
+     {
+         box-sizing: border-box;
+     }
+
+    .image_in_Categories1
+    {
+        width:55%;
+        margin: 0;
+        
+    }
+    
+       .image_in_Categories1 figure
+    {
+        width: 80%;
+    }
+
+    .image_in_Categories1 figure figcaption
+    {
+        font-size:4vw;
+    }
+
+    .p_btn_in_Categories
+    {
+        width: 40%;
+        
+    }
+    
+    .p_btn_in_Categories p
+    {
+        font-size:20px;
+
+    }
+    .p_btn_in_Categories button
+    {
+        font-size:3vw;
+
+    }
+    
+    .image_in_Categories
+    {
+        display: none;
+    }
+
+    
+}
